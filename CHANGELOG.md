@@ -15,6 +15,7 @@
 - `Improbable.Gdk.EntityTemplate` is now mutable and exposes a set of APIs to add, remove, and replace component snapshots
     - This replaces the `Improbable.Gdk.Core.EntityBuilder` class.
     - These changes also allow you to reuse an `EntityTemplate` more than once.
+- Fixed Memory crash in TransformSynchronization module.
 
 ### Fixed
 
